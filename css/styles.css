@@ -807,6 +807,11 @@ img {
 .checkbox-container-input:checked + .checkbox-container-span {
   background-color: #404bbf;
   border: none;
+}
+
+.checkbox-container-input:checked
+  + .checkbox-container-span
+  .checkbox-container-span-svg {
   fill: #f4f4fd;
 }
 
