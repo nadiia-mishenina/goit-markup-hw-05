@@ -1,0 +1,33 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Checkbox" viewBox="0 0 32 32">
+<title>Checkbox</title>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
+</symbol>
+<symbol id="icon-Vector-8" viewBox="0 0 32 32">
+<title>Vector-8</title>
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
+<symbol id="icon-Ellipse-1" viewBox="0 0 32 32">
+<title>Ellipse-1</title>
+<path fill="#e7e9fc" style="fill: var(--color1, #e7e9fc)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
+</symbol>
+<symbol id="icon-email" viewBox="0 0 32 32">
+<title>email</title>
+<path d="M28 4h-24c-1.65 0-2.985 1.35-2.985 3l-0.015 18c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3v-18c0-1.65-1.35-3-3-3zM27.4 10.375l-10.605 6.63c-0.48 0.3-1.11 0.3-1.59 0l-10.605-6.63c-0.375-0.24-0.6-0.645-0.6-1.080 0-1.005 1.095-1.605 1.95-1.080l10.050 6.285 10.050-6.285c0.855-0.525 1.95 0.075 1.95 1.080 0 0.435-0.225 0.84-0.6 1.080z"></path>
+</symbol>
+<symbol id="icon-phone" viewBox="0 0 32 32">
+<title>phone</title>
+<path d="M28.865 21.822l-4.525-0.517c-1.087-0.125-2.155 0.249-2.921 1.015l-3.278 3.278c-5.041-2.565-9.174-6.68-11.739-11.739l3.296-3.296c0.766-0.766 1.14-1.835 1.015-2.921l-0.517-4.489c-0.214-1.799-1.728-3.153-3.545-3.153h-3.082c-2.013 0-3.687 1.675-3.563 3.687 0.944 15.213 13.111 27.362 28.306 28.306 2.013 0.125 3.687-1.55 3.687-3.563v-3.082c0.018-1.799-1.336-3.313-3.135-3.527z"></path>
+</symbol>
+<symbol id="icon-name" viewBox="0 0 32 32">
+<title>name</title>
+<path fill="#4d5ae5" style="fill: var(--color3, #4d5ae5)" d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8c-4.42 0-8 3.58-8 8s3.58 8 8 8zM16 20c-5.34 0-16 2.68-16 8v2c0 1.1 0.9 2 2 2h28c1.1 0 2-0.9 2-2v-2c0-5.32-10.66-8-16-8z"></path>
+</symbol>
+<symbol id="icon-icon-send" viewBox="0 0 32 32">
+<title>icon-send</title>
+<path fill="#fff" style="fill: var(--color4, #fff)" d="M32 2.667l-32 15 10.227 3.156 15.773-12.323-11.998 13.488 0.010 0.003-0.012-0.003v7.345l5.735-5.576 7.265 2.242 5-23.333z"></path>
+</symbol>
+</defs>
+</svg>
