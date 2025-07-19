@@ -804,11 +804,16 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-container-input:checked + .checkbox-container-span {
+.checkbox-container:checked + .checkbox-container-span {
   background-color: #404bbf;
   border: none;
 }
 
+.checkbox-container:checked
+  + .checkbox-container-span
+  .checkbox-container-span-svg {
+  fill: #f4f4fd;
+}
 .checkbox-container-input:checked
   + .checkbox-container-span
   .checkbox-container-span-svg {
