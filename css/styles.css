@@ -814,6 +814,14 @@ img {
   .checkbox-container-span-svg {
   fill: #f4f4fd;
 }
+span.checked {
+  background-color: #404bbf;
+  border: none;
+}
+
+input:checked + span {
+  fill: #f4f4fd;
+}
 
 .checkbox-container-link {
   color: #4d5ae5;
