@@ -639,16 +639,16 @@ img {
   justify-content: center;
   align-items: center;
 
-  opacity: 0;
-  pointer-events: none;
+  /* opacity: 0;
+  pointer-events: none; */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-overlay .is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
-} */
+}
 
 .modal {
   position: absolute;
@@ -682,6 +682,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-form-button:hover,
+.modal-form-button:focus {
+  background-color: #404bbf;
+}
+
 .modal-but-kr:hover {
   background-color: #404bbf;
   border: none;
@@ -694,10 +700,9 @@ img {
 .footer-form-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-but-kr:focus,
 .modal-but-kr:hover {
-  fill: #ffffff;
-}
-.modal-but-kr:focus {
   fill: #ffffff;
 }
 .modal-text {
