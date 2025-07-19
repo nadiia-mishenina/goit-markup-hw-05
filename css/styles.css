@@ -797,6 +797,8 @@ img {
   fill: transparent;
 }
 .checkbox-container-span-svg {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
 }
 .checkbox-container-input-chek:checked {
   background-color: #404bbf;
