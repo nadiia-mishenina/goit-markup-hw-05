@@ -504,8 +504,8 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-container">
-            <label class="modal-list" for="user-name"> Name</label>
-            <div class="modal-form-container-input">
+              <label class="modal-list" for="user-name"> Name</label>
+             <div class="modal-form-container-input">
               <input
                 class="modal-form-input"
                 id="user-name"
@@ -515,32 +515,35 @@
               <svg class="modal-form-svg" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-name"></use>
               </svg>
+             </div>
             </div>
-            <label class="modal-list"> Phone</label>
-            <div class="modal-form-container-input">
-              <input class="modal-form-input" type="number" name="phone" />
-              <svg class="modal-form-svg" width="18" height="24">
-                <use href="./images/symbol-defs.svg#icon-phone"></use>
-              </svg>
+            <div class="modal-form-container">
+               <label class="modal-list"> Phone</label>
+              <div class="modal-form-container-input">
+                <input class="modal-form-input" type="number" name="phone" />
+                <svg class="modal-form-svg" width="18" height="24">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+              </div>
             </div>
-            <label class="modal-list"> Email</label>
-            <div class="modal-form-container-input">
-              <input class="modal-form-input" type="email" name="email" />
-              <svg class="modal-form-svg" width="18" height="24">
+            <div class="modal-form-container">
+              <label class="modal-list"> Email</label>
+              <div class="modal-form-container-input">
+               <input class="modal-form-input" type="email" name="email" />
+               <svg class="modal-form-svg" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
-              </svg>
+               </svg>
+              </div>
             </div>
-
             <div class="modal-form-container-comment">
-              <label for="user-comment" class="modal-list">
-                Comment
-                <textarea
+              <label for="user-comment" class="modal-form-container">
+                Comment</label>
+              <textarea
                   class="modal-form-comment-area"
                   id="user-comment"
                   name="user-comment"
-                  placeholder="Text input"
-                ></textarea>
-              </label>
+                  placeholder="Text input">
+              </textarea>
             </div>
             <div class="modal-form-checkbox-container">
               <input
