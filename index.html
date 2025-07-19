@@ -496,31 +496,81 @@
     </footer>
     <div class="modal-overlay is-open">
       <div class="modal">
-        <h2 class="modal-title">
-          Leave your contacts and we will call you back
-        </h2>
+        <button class="modal-but-kr" type="button">
+          <svg class="footer-form-svg" width="8" height="8">
+            <use href="./images/symbol-defs.svg#icon-Vector-8"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <label class="modal-list">
-            Name
-            <input type="text" name="name" autofocus />
-          </label>
-          <label class="modal-list">
-            Phone
-            <input type="number" name="phone" autofocus />
-          </label>
-          <label class="modal-list">
-            Email
-            <input type="email" name="email" autofocus />
-          </label>
-          <label class="modal-list">
-            Comment
-            <textarea
-              name="comment"
-              rows="5"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-          <button class="modal-button" type="button">Send</button>
+          <div class="modal-form-container">
+            <label class="modal-list" for="user-name">
+              Name
+              <div class="modal-form-container-input">
+                <input
+                  class="modal-form-input"
+                  id="user-name"
+                  type="text"
+                  name="user-name"
+                />
+                <svg class="modal-form-svg" width="18" height="24">
+                  <use href="./images/symbol-defs.svg#icon-name"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="modal-list">
+              Phone
+              <div class="modal-form-container-input">
+                <input class="modal-form-input" type="number" name="phone" />
+                <svg class="modal-form-svg" width="18" height="24">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="modal-list">
+              Email
+              <div class="modal-form-container-input">
+                <input class="modal-form-input" type="email" name="email" />
+                <svg class="modal-form-svg" width="18" height="24">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+            <div modal-form-container-comment>
+              <label for="user-comment" class="modal-list">
+                Comment
+                <textarea
+                  class="modal-form-comment-area"
+                  id="user-comment"
+                  name="user-comment"
+                  placeholder="Text input"
+                ></textarea>
+              </label>
+            </div>
+            <div class="modal-form-checkbox-container">
+              <input
+                class="checkbox-container-input-chek visually-hidden"
+                id="user-privacy"
+                type="checkbox"
+                value="true"
+                name="user-privacy"
+              />
+              <label class="checkbox-container" for="user-privacy"
+                ><span class="checkbox-container-span">
+                  <svg
+                    class="checkbox-container-span-svg"
+                    width="10"
+                    height="8"
+                  >
+                    <use href="./images/symbol-defs.svg#icon-Checkbox"></use>
+                  </svg>
+                </span>
+                accept the terms and conditions of the
+                <a class="checkbox-container-link">Privacy Policy </a>
+              </label>
+            </div>
+            <button class="modal-form-button" type="button">Send</button>
+          </div>
         </form>
       </div>
     </div>
